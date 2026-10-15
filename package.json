@@ -1,0 +1,17 @@
+{
+  "name": "illazz",
+  "version": "1.0.0",
+  "description": "AI-assisted telemedicine platform for preliminary symptom assessment and online doctor consultations",
+  "scripts": {
+    "seed": "npm --prefix backend run seed",
+    "backend": "npm --prefix backend start",
+    "backend:dev": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "test:backend": "node backend/test_api.js",
+    "test:e2e": "node tests/e2e_verification.js"
+  },
+  "dependencies": {
+    "pg": "^8.23.0"
+  }
+}
